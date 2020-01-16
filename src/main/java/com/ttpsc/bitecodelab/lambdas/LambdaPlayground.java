@@ -2,7 +2,7 @@ package com.ttpsc.bitecodelab.lambdas;
 
 import com.ttpsc.bitecodelab.interface_repetition.Computation;
 
-public class Playground {
+public class LambdaPlayground {
 
     public static void main(String[] args) {
 
