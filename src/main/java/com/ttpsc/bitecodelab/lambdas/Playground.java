@@ -32,7 +32,7 @@ public class Playground {
     }
 
     //Method reference
-    public double addWithLambda2(double first, double second) {
+    public double addWithLambdaMethodReference(double first, double second) {
         Computation computation = Double::sum;
         return computation.compute(first, second);
     }
