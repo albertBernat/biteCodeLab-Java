@@ -36,9 +36,8 @@ public class CreateCafeLatteCommand implements Command {
         view.info("Here goes your coffee. Enjoy IT ;)");
     }
 
+//TODO ZADANIE 1.3 teraz można dla każdej komendy menu zwrócić jej indywidualną etykiete
 //    @Override
-//    public String getLabel() {
-//        return "Create Latte";
-//    }
+//    public String getLabel() {}
 
 }
