@@ -50,7 +50,6 @@ public class Optionals {
         //TODO ZADANIE 3 do aktualnego kodu dopisz obsluge braku ulicy,
         // jesli nie ma ulicy, adresu itp zwroc "404 street not found"
 
-
         if(company!=null){
             Address address = company.getAddress();
             if(address!=null){
@@ -61,7 +60,6 @@ public class Optionals {
                 }
             }
         }
-
         //TODO ZADANIE 4 Przerob logikę tej metody na wykorzystująco możliwości Optionala!
     }
 }
