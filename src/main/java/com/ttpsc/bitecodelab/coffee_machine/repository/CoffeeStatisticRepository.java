@@ -13,6 +13,4 @@ public interface CoffeeStatisticRepository {
     boolean resetAllStatistics();
 
     boolean resetStatisticFor(String coffeeName);
-
-    //TODO ZADANIE 2 dodać metodę która zresetuje statystyki dla wielu kaw, których nazwy są podane w tablicy stringów
 }

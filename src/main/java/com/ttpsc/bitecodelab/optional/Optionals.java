@@ -1,8 +1,5 @@
 package com.ttpsc.bitecodelab.optional;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.util.Collection;
 import java.util.Optional;
 import java.util.Random;
 import java.util.function.Supplier;
@@ -47,9 +44,6 @@ public class Optionals {
 
 
     private static void printCompanyStreetName(Company company) {
-        //TODO ZADANIE 3 do aktualnego kodu dopisz obsluge braku ulicy,
-        // jesli nie ma ulicy, adresu itp zwroc "404 street not found"
-
         if(company!=null){
             Address address = company.getAddress();
             if(address!=null){
@@ -60,7 +54,6 @@ public class Optionals {
                 }
             }
         }
-        //TODO ZADANIE 4 Przerob logikę tej metody na wykorzystująco możliwości Optionala!
     }
 }
 

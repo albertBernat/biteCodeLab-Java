@@ -19,7 +19,6 @@ public class Menu {
             view.error("List of commends is empty");
         }
         for (Command command : commands) {
-            //TODO ZADANIE 1.2 wykorzystac metode do pobierania etykiety komendy
             String message = String.format(OPTION_FORMAT, commands.indexOf(command), command.getClass().getSimpleName());
             view.info(message);
         }

@@ -32,9 +32,7 @@ public class FunctionalInterfaces {
     private static void presentConsumer() {
         System.out.println("-- CONSUMER --");
         // Consumer performs an action based on an input
-        Consumer<String> yellAtMe = (sentence) -> {
-            System.out.println(sentence.toUpperCase() + "!!!1");
-        };
+        Consumer<String> yellAtMe = sentence -> System.out.println(sentence.toUpperCase() + "!!!1");
         yellAtMe.accept("Java is awesome");
     }
 

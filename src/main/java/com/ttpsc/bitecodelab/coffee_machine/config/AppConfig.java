@@ -1,11 +1,18 @@
 package com.ttpsc.bitecodelab.coffee_machine.config;
 
-import com.ttpsc.bitecodelab.coffee_machine.controller.*;
+import com.ttpsc.bitecodelab.coffee_machine.controller.Command;
+import com.ttpsc.bitecodelab.coffee_machine.controller.CreateCafeLatteCommand;
+import com.ttpsc.bitecodelab.coffee_machine.controller.CreateExpressoCommand;
+import com.ttpsc.bitecodelab.coffee_machine.controller.DisplayCoffeeStatisticsCommand;
+import com.ttpsc.bitecodelab.coffee_machine.controller.ExitCommand;
+import com.ttpsc.bitecodelab.coffee_machine.controller.GetCountOfAllCoffees;
+import com.ttpsc.bitecodelab.coffee_machine.controller.ResetAllCoffeeStatisticCommand;
+import com.ttpsc.bitecodelab.coffee_machine.controller.ResetStatisticForCoffeeCommand;
+import com.ttpsc.bitecodelab.coffee_machine.menu.Menu;
 import com.ttpsc.bitecodelab.coffee_machine.repository.CoffeeStatisticRepository;
 import com.ttpsc.bitecodelab.coffee_machine.repository.inmemory.InMemoryCoffeeStatisticRepository;
 import com.ttpsc.bitecodelab.coffee_machine.view.View;
 import com.ttpsc.bitecodelab.coffee_machine.view.console.ConsoleView;
-import com.ttpsc.bitecodelab.coffee_machine.menu.Menu;
 
 import java.util.ArrayList;
 import java.util.List;

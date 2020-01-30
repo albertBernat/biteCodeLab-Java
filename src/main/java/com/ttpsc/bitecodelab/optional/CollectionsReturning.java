@@ -3,7 +3,6 @@ package com.ttpsc.bitecodelab.optional;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Optional;
 
 public class CollectionsReturning {
     public static void main(String[] args) {
@@ -21,9 +20,8 @@ public class CollectionsReturning {
     }
 
     private static void printAllRecipients(MailBox mailBox) {
-        //TODO ZADANIE 6
         List<Letter> letters = mailBox.getLetters();
-        if(!(letters==null || letters.isEmpty())){
+        if (!(letters == null || letters.isEmpty())) {
             for (Iterator<Letter> iterator = letters.iterator(); iterator.hasNext(); ) {
                 Letter letter = iterator.next();
                 System.out.println(letter.getRecipient());
@@ -36,7 +34,6 @@ public class CollectionsReturning {
 
 
 class MailBox {
-    //TODO ZADANIE 5.1 zamien zmienna letters na final i uzupelnij odpowiednio wszystkie konstruktory
     List<Letter> letters;
 
     public MailBox() {
@@ -47,7 +44,6 @@ class MailBox {
     }
 
     public List<Letter> getLetters() {
-        //TODO ZADANIE 5.2 jesli letters nigdy nie bedzie nullem to mozesz zwrocic ta zmienna bez sprawdzania
         if (letters == null || letters != null && letters.size() == 0) {
             return null;
         } else {
