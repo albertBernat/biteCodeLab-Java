@@ -14,12 +14,8 @@ public class SomeMain {
         System.out.println(student2);
         System.out.println(student3);
 
-        GroupRecord groupRecord1 = new GroupRecord("3ID11A", 20);
-        StudentRecord studentRecord1 = new StudentRecord("Jan", "Kowalski", Set.of(groupRecord1), List.of(Grade.FIVE, Grade.THREE, Grade.FOUR));
-        StudentRecord studentRecord2 = new StudentRecord("John", "Doe", Set.of(groupRecord1), List.of(Grade.FIVE, Grade.THREE, Grade.FOUR));
-        StudentRecord studentRecord3 = new StudentRecord("Andrzej", "Nowak", Set.of(groupRecord1), List.of(Grade.FIVE, Grade.THREE, Grade.FOUR));
-        System.out.println(studentRecord1);
-        System.out.println(studentRecord2);
-        System.out.println(studentRecord3);
+        // TODO 2
+        //  Zmien implementacje tych struktur(Student i Group) z klas na rekordy
+
     }
 }
